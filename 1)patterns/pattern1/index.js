@@ -8,8 +8,8 @@
 const pattern = () => {
   for (let i = 1; i <= 5; i++) {
     let string = "";
-    for (let j = 1; j <= 2; j++) {
-      string = string + " " + j;
+    for (let j = 1; j <= 5; j++) {
+      string = string + " " + "*";
     }
     console.log(string);
   }
